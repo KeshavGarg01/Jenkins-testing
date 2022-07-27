@@ -1,0 +1,1217 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors>
+    <string>jenkins.security.s2m.MasterKillSwitchWarning</string>
+    <string>jenkins.security.QueueItemAuthenticatorMonitor</string>
+  </disabledAdministrativeMonitors>
+  <version>2.176.2</version>
+  <installStateName>RUNNING</installStateName>
+  <numExecutors>10</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.ProjectMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:authenticated</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:keshav.garg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:lakshay.gupta</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:mohammad.javed</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:nehalp</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:utpals</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:authenticated</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:keshav.garg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:lakshay.gupta</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:mohammad.javed</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:nehalp</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:utpals</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:authenticated</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:keshav.garg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:lakshay.gupta</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:mohammad.javed</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:nehalp</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:utpals</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:authenticated</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:keshav.garg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:lakshay.gupta</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:mohammad.javed</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:nehalp</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:utpals</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:anonymous</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:authenticated</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:keshav.garg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:lakshay.gupta</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:mohammad.javed</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:nehalp</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:utpals</permission>
+    <permission>hudson.model.Computer.Build:authenticated</permission>
+    <permission>hudson.model.Computer.Build:keshav.garg</permission>
+    <permission>hudson.model.Computer.Build:lakshay.gupta</permission>
+    <permission>hudson.model.Computer.Build:mohammad.javed</permission>
+    <permission>hudson.model.Computer.Build:nehalp</permission>
+    <permission>hudson.model.Computer.Build:utpals</permission>
+    <permission>hudson.model.Computer.Configure:authenticated</permission>
+    <permission>hudson.model.Computer.Configure:keshav.garg</permission>
+    <permission>hudson.model.Computer.Configure:lakshay.gupta</permission>
+    <permission>hudson.model.Computer.Configure:mohammad.javed</permission>
+    <permission>hudson.model.Computer.Configure:nehalp</permission>
+    <permission>hudson.model.Computer.Configure:utpals</permission>
+    <permission>hudson.model.Computer.Connect:anonymous</permission>
+    <permission>hudson.model.Computer.Connect:authenticated</permission>
+    <permission>hudson.model.Computer.Connect:keshav.garg</permission>
+    <permission>hudson.model.Computer.Connect:lakshay.gupta</permission>
+    <permission>hudson.model.Computer.Connect:mohammad.javed</permission>
+    <permission>hudson.model.Computer.Connect:nehalp</permission>
+    <permission>hudson.model.Computer.Connect:utpals</permission>
+    <permission>hudson.model.Computer.Create:anonymous</permission>
+    <permission>hudson.model.Computer.Create:authenticated</permission>
+    <permission>hudson.model.Computer.Create:keshav.garg</permission>
+    <permission>hudson.model.Computer.Create:lakshay.gupta</permission>
+    <permission>hudson.model.Computer.Create:mohammad.javed</permission>
+    <permission>hudson.model.Computer.Create:nehalp</permission>
+    <permission>hudson.model.Computer.Create:utpals</permission>
+    <permission>hudson.model.Computer.Delete:authenticated</permission>
+    <permission>hudson.model.Computer.Delete:keshav.garg</permission>
+    <permission>hudson.model.Computer.Delete:lakshay.gupta</permission>
+    <permission>hudson.model.Computer.Delete:mohammad.javed</permission>
+    <permission>hudson.model.Computer.Delete:nehalp</permission>
+    <permission>hudson.model.Computer.Delete:utpals</permission>
+    <permission>hudson.model.Computer.Disconnect:authenticated</permission>
+    <permission>hudson.model.Computer.Disconnect:keshav.garg</permission>
+    <permission>hudson.model.Computer.Disconnect:lakshay.gupta</permission>
+    <permission>hudson.model.Computer.Disconnect:mohammad.javed</permission>
+    <permission>hudson.model.Computer.Disconnect:nehalp</permission>
+    <permission>hudson.model.Computer.Disconnect:utpals</permission>
+    <permission>hudson.model.Hudson.Administer:keshav.garg</permission>
+    <permission>hudson.model.Hudson.Administer:lakshay.gupta</permission>
+    <permission>hudson.model.Hudson.Administer:mohammad.javed</permission>
+    <permission>hudson.model.Hudson.Administer:nehalp</permission>
+    <permission>hudson.model.Hudson.Administer:utpals</permission>
+    <permission>hudson.model.Hudson.Read:anonymous</permission>
+    <permission>hudson.model.Hudson.Read:authenticated</permission>
+    <permission>hudson.model.Hudson.Read:keshav.garg</permission>
+    <permission>hudson.model.Hudson.Read:lakshay.gupta</permission>
+    <permission>hudson.model.Hudson.Read:mohammad.javed</permission>
+    <permission>hudson.model.Hudson.Read:nehalp</permission>
+    <permission>hudson.model.Hudson.Read:utpals</permission>
+    <permission>hudson.model.Item.Build:authenticated</permission>
+    <permission>hudson.model.Item.Build:keshav.garg</permission>
+    <permission>hudson.model.Item.Build:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Build:mohammad.javed</permission>
+    <permission>hudson.model.Item.Build:nehalp</permission>
+    <permission>hudson.model.Item.Build:utpals</permission>
+    <permission>hudson.model.Item.Cancel:authenticated</permission>
+    <permission>hudson.model.Item.Cancel:keshav.garg</permission>
+    <permission>hudson.model.Item.Cancel:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Cancel:mohammad.javed</permission>
+    <permission>hudson.model.Item.Cancel:nehalp</permission>
+    <permission>hudson.model.Item.Cancel:utpals</permission>
+    <permission>hudson.model.Item.Configure:authenticated</permission>
+    <permission>hudson.model.Item.Configure:keshav.garg</permission>
+    <permission>hudson.model.Item.Configure:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Configure:mohammad.javed</permission>
+    <permission>hudson.model.Item.Configure:nehalp</permission>
+    <permission>hudson.model.Item.Configure:utpals</permission>
+    <permission>hudson.model.Item.Create:authenticated</permission>
+    <permission>hudson.model.Item.Create:keshav.garg</permission>
+    <permission>hudson.model.Item.Create:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Create:mohammad.javed</permission>
+    <permission>hudson.model.Item.Create:nehalp</permission>
+    <permission>hudson.model.Item.Create:utpals</permission>
+    <permission>hudson.model.Item.Delete:authenticated</permission>
+    <permission>hudson.model.Item.Delete:keshav.garg</permission>
+    <permission>hudson.model.Item.Delete:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Delete:mohammad.javed</permission>
+    <permission>hudson.model.Item.Delete:nehalp</permission>
+    <permission>hudson.model.Item.Delete:utpals</permission>
+    <permission>hudson.model.Item.Discover:anonymous</permission>
+    <permission>hudson.model.Item.Discover:authenticated</permission>
+    <permission>hudson.model.Item.Discover:keshav.garg</permission>
+    <permission>hudson.model.Item.Discover:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Discover:mohammad.javed</permission>
+    <permission>hudson.model.Item.Discover:nehalp</permission>
+    <permission>hudson.model.Item.Discover:utpals</permission>
+    <permission>hudson.model.Item.Move:authenticated</permission>
+    <permission>hudson.model.Item.Move:keshav.garg</permission>
+    <permission>hudson.model.Item.Move:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Move:mohammad.javed</permission>
+    <permission>hudson.model.Item.Move:nehalp</permission>
+    <permission>hudson.model.Item.Move:utpals</permission>
+    <permission>hudson.model.Item.Read:anonymous</permission>
+    <permission>hudson.model.Item.Read:authenticated</permission>
+    <permission>hudson.model.Item.Read:keshav.garg</permission>
+    <permission>hudson.model.Item.Read:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Read:mohammad.javed</permission>
+    <permission>hudson.model.Item.Read:nehalp</permission>
+    <permission>hudson.model.Item.Read:utpals</permission>
+    <permission>hudson.model.Item.Workspace:authenticated</permission>
+    <permission>hudson.model.Item.Workspace:keshav.garg</permission>
+    <permission>hudson.model.Item.Workspace:lakshay.gupta</permission>
+    <permission>hudson.model.Item.Workspace:mohammad.javed</permission>
+    <permission>hudson.model.Item.Workspace:nehalp</permission>
+    <permission>hudson.model.Item.Workspace:utpals</permission>
+    <permission>hudson.model.Run.Delete:authenticated</permission>
+    <permission>hudson.model.Run.Delete:keshav.garg</permission>
+    <permission>hudson.model.Run.Delete:lakshay.gupta</permission>
+    <permission>hudson.model.Run.Delete:mohammad.javed</permission>
+    <permission>hudson.model.Run.Delete:nehalp</permission>
+    <permission>hudson.model.Run.Delete:utpals</permission>
+    <permission>hudson.model.Run.Replay:authenticated</permission>
+    <permission>hudson.model.Run.Replay:keshav.garg</permission>
+    <permission>hudson.model.Run.Replay:lakshay.gupta</permission>
+    <permission>hudson.model.Run.Replay:mohammad.javed</permission>
+    <permission>hudson.model.Run.Replay:nehalp</permission>
+    <permission>hudson.model.Run.Replay:utpals</permission>
+    <permission>hudson.model.Run.Update:authenticated</permission>
+    <permission>hudson.model.Run.Update:keshav.garg</permission>
+    <permission>hudson.model.Run.Update:lakshay.gupta</permission>
+    <permission>hudson.model.Run.Update:mohammad.javed</permission>
+    <permission>hudson.model.Run.Update:nehalp</permission>
+    <permission>hudson.model.Run.Update:utpals</permission>
+    <permission>hudson.model.View.Configure:authenticated</permission>
+    <permission>hudson.model.View.Configure:keshav.garg</permission>
+    <permission>hudson.model.View.Configure:lakshay.gupta</permission>
+    <permission>hudson.model.View.Configure:mohammad.javed</permission>
+    <permission>hudson.model.View.Configure:nehalp</permission>
+    <permission>hudson.model.View.Configure:utpals</permission>
+    <permission>hudson.model.View.Create:authenticated</permission>
+    <permission>hudson.model.View.Create:keshav.garg</permission>
+    <permission>hudson.model.View.Create:lakshay.gupta</permission>
+    <permission>hudson.model.View.Create:mohammad.javed</permission>
+    <permission>hudson.model.View.Create:nehalp</permission>
+    <permission>hudson.model.View.Create:utpals</permission>
+    <permission>hudson.model.View.Delete:authenticated</permission>
+    <permission>hudson.model.View.Delete:keshav.garg</permission>
+    <permission>hudson.model.View.Delete:lakshay.gupta</permission>
+    <permission>hudson.model.View.Delete:mohammad.javed</permission>
+    <permission>hudson.model.View.Delete:nehalp</permission>
+    <permission>hudson.model.View.Delete:utpals</permission>
+    <permission>hudson.model.View.Read:anonymous</permission>
+    <permission>hudson.model.View.Read:authenticated</permission>
+    <permission>hudson.model.View.Read:keshav.garg</permission>
+    <permission>hudson.model.View.Read:lakshay.gupta</permission>
+    <permission>hudson.model.View.Read:mohammad.javed</permission>
+    <permission>hudson.model.View.Read:nehalp</permission>
+    <permission>hudson.model.View.Read:utpals</permission>
+    <permission>hudson.scm.SCM.Tag:authenticated</permission>
+    <permission>hudson.scm.SCM.Tag:keshav.garg</permission>
+    <permission>hudson.scm.SCM.Tag:lakshay.gupta</permission>
+    <permission>hudson.scm.SCM.Tag:mohammad.javed</permission>
+    <permission>hudson.scm.SCM.Tag:nehalp</permission>
+    <permission>hudson.scm.SCM.Tag:utpals</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:authenticated</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:keshav.garg</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:lakshay.gupta</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:mohammad.javed</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:nehalp</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:utpals</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:authenticated</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:keshav.garg</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:lakshay.gupta</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:mohammad.javed</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:nehalp</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:utpals</permission>
+  </authorizationStrategy>
+  <securityRealm class="de.theit.jenkins.crowd.CrowdSecurityRealm" plugin="crowd2@2.0.1">
+    <url>http://dc1crowd.tpt.com:8095/crowd</url>
+    <applicationName>jenkins-cs</applicationName>
+    <password>{AQAAABAAAAAQG1hjUeIPS5+MZOFHW7N8nbHUjp4qnEwFb3fJrMfSgjQ=}</password>
+    <group></group>
+    <nestedGroups>true</nestedGroups>
+    <useSSO>false</useSSO>
+    <sessionValidationInterval>2</sessionValidationInterval>
+    <cookieDomain></cookieDomain>
+    <cookieTokenkey>crowd.token_key</cookieTokenkey>
+    <useProxy>false</useProxy>
+    <httpProxyHost></httpProxyHost>
+    <httpProxyPort></httpProxyPort>
+    <httpProxyUsername></httpProxyUsername>
+    <httpProxyPassword>{AQAAABAAAAAQMJB0utdbupA+XdPb2h6+OBUyTIUAJEVjn09HXGDWmuU=}</httpProxyPassword>
+    <socketTimeout>20000</socketTimeout>
+    <httpTimeout>5000</httpTimeout>
+    <httpMaxConnections>20</httpMaxConnections>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Seed-View</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>tpt-cs-job-dsl-scripts</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SSOE</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (SSOE)</string>
+        <string>Start Environment (SSOE)</string>
+        <string>Stop Environment (SSOE)</string>
+        <string>Upgrade Environment (SSOE)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>ANA</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (ANA)</string>
+        <string>Start Environment (ANA)</string>
+        <string>Stop Environment (ANA)</string>
+        <string>Upgrade Environment (ANA)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>AVR</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (AVR)</string>
+        <string>Start Environment (AVR)</string>
+        <string>Stop Environment (AVR)</string>
+        <string>Upgrade Environment (AVR)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>BRU</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (BRU)</string>
+        <string>Start Environment (BRU)</string>
+        <string>Stop Environment (BRU)</string>
+        <string>Upgrade Environment (BRU)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>CAP</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (CAP)</string>
+        <string>Start Environment (CAP)</string>
+        <string>Stop Environment (CAP)</string>
+        <string>Upgrade Environment (CAP)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>CIMA</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (CIMA)</string>
+        <string>Start Environment (CIMA)</string>
+        <string>Stop Environment (CIMA)</string>
+        <string>Upgrade Environment (CIMA)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>FON</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (FON)</string>
+        <string>Start Environment (FON)</string>
+        <string>Stop Environment (FON)</string>
+        <string>Upgrade Environment (FON)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>GRE</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (GRE)</string>
+        <string>Start Environment (GRE)</string>
+        <string>Stop Environment (GRE)</string>
+        <string>Upgrade Environment (GRE)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>HEL</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (HEL)</string>
+        <string>Start Environment (HEL)</string>
+        <string>Stop Environment (HEL)</string>
+        <string>Upgrade Environment (HEL)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>KOCH</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (KOCH)</string>
+        <string>Start Environment (KOCH)</string>
+        <string>Stop Environment (KOCH)</string>
+        <string>Upgrade Environment (KOCH)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>TVA</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (TVA)</string>
+        <string>Start Environment (TVA)</string>
+        <string>Stop Environment (TVA)</string>
+        <string>Upgrade Environment (TVA)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>VAL</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (VAL)</string>
+        <string>Start Environment (VAL)</string>
+        <string>Stop Environment (VAL)</string>
+        <string>Upgrade Environment (VAL)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>WFS</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (WFS)</string>
+        <string>Start Environment (WFS)</string>
+        <string>Stop Environment (WFS)</string>
+        <string>Upgrade Environment (WFS)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>WRO</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (WRO)</string>
+        <string>Start Environment (WRO)</string>
+        <string>Stop Environment (WRO)</string>
+        <string>Upgrade Environment (WRO)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>DFA</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (DFA)</string>
+        <string>Start Environment (DFA)</string>
+        <string>Stop Environment (DFA)</string>
+        <string>Upgrade Environment (DFA)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>WEC</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (WEC)</string>
+        <string>Start Environment (WEC)</string>
+        <string>Stop Environment (WEC)</string>
+        <string>Upgrade Environment (WEC)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>GCUK</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (GCUK)</string>
+        <string>Start Environment (GCUK)</string>
+        <string>Stop Environment (GCUK)</string>
+        <string>Upgrade Environment (GCUK)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>XCEL</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (XCEL)</string>
+        <string>Start Environment (XCEL)</string>
+        <string>Stop Environment (XCEL)</string>
+        <string>Upgrade Environment (XCEL)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>RAI</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (RAI)</string>
+        <string>Start Environment (RAI)</string>
+        <string>Stop Environment (RAI)</string>
+        <string>Upgrade Environment (RAI)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SAR</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (SAR)</string>
+        <string>Start Environment (SAR)</string>
+        <string>Stop Environment (SAR)</string>
+        <string>Upgrade Environment (SAR)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SOC</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (SOC)</string>
+        <string>Start Environment (SOC)</string>
+        <string>Stop Environment (SOC)</string>
+        <string>Upgrade Environment (SOC)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>ALG</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (ALG)</string>
+        <string>Start Environment (ALG)</string>
+        <string>Stop Environment (ALG)</string>
+        <string>Upgrade Environment (ALG)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>NOV</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (NOV)</string>
+        <string>Start Environment (NOV)</string>
+        <string>Stop Environment (NOV)</string>
+        <string>Upgrade Environment (NOV)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>LYB</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (LYB)</string>
+        <string>Start Environment (LYB)</string>
+        <string>Stop Environment (LYB)</string>
+        <string>Upgrade Environment (LYB)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SUN</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (SUN)</string>
+        <string>Start Environment (SUN)</string>
+        <string>Stop Environment (SUN)</string>
+        <string>Upgrade Environment (SUN)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>TSE</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (TSE)</string>
+        <string>Start Environment (TSE)</string>
+        <string>Stop Environment (TSE)</string>
+        <string>Upgrade Environment (TSE)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>UNP</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (UNP)</string>
+        <string>Start Environment (UNP)</string>
+        <string>Stop Environment (UNP)</string>
+        <string>Upgrade Environment (UNP)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SHV</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (SHV)</string>
+        <string>Start Environment (SHV)</string>
+        <string>Stop Environment (SHV)</string>
+        <string>Upgrade Environment (SHV)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>NAU</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (NAU)</string>
+        <string>Start Environment (NAU)</string>
+        <string>Stop Environment (NAU)</string>
+        <string>Upgrade Environment (NAU)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>61C</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (61C)</string>
+        <string>Start Environment (61C)</string>
+        <string>Stop Environment (61C)</string>
+        <string>Upgrade Environment (61C)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>GUNPT</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (GUNPT)</string>
+        <string>Start Environment (GUNPT)</string>
+        <string>Stop Environment (GUNPT)</string>
+        <string>Upgrade Environment (GUNPT)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>COP</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (COP)</string>
+        <string>Start Environment (COP)</string>
+        <string>Stop Environment (COP)</string>
+        <string>Upgrade Environment (COP)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>GEN_8_22</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (GEN_8_22)</string>
+        <string>Start Environment (GEN_8_22)</string>
+        <string>Stop Environment (GEN_8_22)</string>
+        <string>Upgrade Environment (GEN_8_22)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>REL</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (REL)</string>
+        <string>Start Environment (REL)</string>
+        <string>Stop Environment (REL)</string>
+        <string>Upgrade Environment (REL)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>SOC_8_19_15</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (SOC_8_19_15)</string>
+        <string>Start Environment (SOC_8_19_15)</string>
+        <string>Stop Environment (SOC_8_19_15)</string>
+        <string>Upgrade Environment (SOC_8_19_15)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>GEN_Saras</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (GEN_Saras)</string>
+        <string>Start Environment (GEN_Saras)</string>
+        <string>Stop Environment (GEN_Saras)</string>
+        <string>Upgrade Environment (GEN_Saras)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>GMI</name>
+      <filterExecutors>true</filterExecutors>
+      <filterQueue>true</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>Deploy And Start Environment (GMI)</string>
+        <string>Start Environment (GMI)</string>
+        <string>Stop Environment (GMI)</string>
+        <string>Upgrade Environment (GMI)</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <nodeProperties/>
+  <globalNodeProperties>
+    <hudson.slaves.EnvironmentVariablesNodeProperty>
+      <envVars serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="hudson.util.CaseInsensitiveComparator"/>
+          </default>
+          <int>2</int>
+          <string>ORACLE_HOME</string>
+          <string>/home/oracle/product/12.1.0/client_1</string>
+          <string>PATH</string>
+          <string>$PATH:/home/oracle/product/12.1.0/client_1/bin</string>
+        </tree-map>
+      </envVars>
+    </hudson.slaves.EnvironmentVariablesNodeProperty>
+  </globalNodeProperties>
+</hudson>
